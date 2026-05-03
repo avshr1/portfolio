@@ -1,0 +1,29 @@
+.skills {
+  padding: 80px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #64ffda;
+  padding-bottom: 10px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  list-style: none;
+}
+
+.badge {
+  background-color: #1e1e1e;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: #64ffda;
+  border: 1px solid #64ffda;
+  font-size: 0.9rem;
+}

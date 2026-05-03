@@ -1,0 +1,28 @@
+.contact {
+  padding: 80px 40px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #64ffda;
+  padding-bottom: 10px;
+}
+
+.contact p {
+  color: #8892b0;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.email {
+  font-size: 1.1rem;
+  color: #64ffda;
+}
+
+.email:hover {
+  text-decoration: underline;
+}
