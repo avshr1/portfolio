@@ -5,12 +5,14 @@ import { About } from './About.js';
 import { Projects } from './Projects.js';
 import { Skills } from './Skills.js';
 import { Contact } from './Contact.js';
+import { useState } from 'react';
 
 
 function App() {
+  const [darkMode, setDarkMode] = useState(true);
   return (
-    <div>
-      <Navbar />
+    <div className={darkMode ? 'dark' : 'light'}>
+      <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
       <Hero />
       <About />
       <Projects />
